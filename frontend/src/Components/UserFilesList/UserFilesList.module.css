@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.seccontainer{
+    padding: 3em 0em;
+    margin: auto;
+    width: 80%;
+}
+
+.listitem{
+    list-style: none;
+    font-size: 2rem;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filesname{
+    width: 50%;
+}
+
+.listitem button{
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5em 1.5em;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    margin: 0em 1em;
+    cursor: pointer;
+}
+
+.bckbtn button{
+    border: none;
+    font-size: 2rem;
+    padding: 0.3em 2em;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1em;
+    cursor: pointer;
+}

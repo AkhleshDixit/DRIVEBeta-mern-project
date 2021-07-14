@@ -1,0 +1,107 @@
+.dashboard{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid white;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 10em;
+    padding-right: 1em;
+    width: 100%;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .logo h1{
+    font-size: 3rem;
+}
+
+.container .logo span{
+    font-size: 2.45rem;
+    color: tomato;
+}
+
+.leftside{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .leftside h1{
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin-right: 0.5em;
+}
+
+.profilePicDiv{
+    width: 70px;
+    height: 70px;
+    margin-right: 1em;
+}
+
+.profilePicDiv img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container button{
+    background-color: tomato;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container button:hover{
+    background-color: rgb(231, 142, 126);
+}
+
+.userfiles{
+    width: 50%;
+    height: 50%;
+}
+
+.filecont{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.filecont h1{
+    font-size: 3rem;
+}
+
+.filecont button{
+    background-color: tomato;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    padding: 0.5em;
+    /* padding-top: 0.3em; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filecont .files input[type="file"]{
+    border: none;
+}
